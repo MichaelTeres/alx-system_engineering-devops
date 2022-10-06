@@ -1,2 +1,2 @@
 #!/bin/bash
-ls-pamv
+ls -p | grep -v / | tr '\n' ','
